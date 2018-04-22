@@ -1,0 +1,1567 @@
+---------------------------------------------------------------
+[ 2018-04-22T16:03:46+08:00 ] 110.184.33.2 GET /index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_user_token` [ RunTime:0.001829s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:41+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"c02094840231490b82994f42390abf2b\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384281) [ RunTime:0.007280s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:43+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003985s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"54e8c06c966efaab8d88784cec11b53c\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384283) [ RunTime:0.018364s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:43+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003865s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.003897s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"f81fc455a8d8f4e8c8062f107aea775c\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384283) [ RunTime:0.011100s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:44+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003423s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.003625s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"ab074af2c4b9beaf051dd1ab78431976\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384284) [ RunTime:0.006605s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:44+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.003732s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"53b245a0289c6d8265be67e2d48ae8c5\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384284) [ RunTime:0.008237s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:44+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"0adb298e309f5bcc6139e31c37f946ad\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384284) [ RunTime:0.006591s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:44+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"505b1ad971f310c5a9eb7a0aab7ff6b6\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384284) [ RunTime:0.012217s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:45+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"071c72a83cdad7129740b774c6666e16\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384285) [ RunTime:0.009306s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:46+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"b6d953b600e221b5aee7754a858b8719\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384286) [ RunTime:0.009961s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:47+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"5c175687f71140ff4ee840c80514831e\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384287) [ RunTime:0.005627s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:47+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000991s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"0b8d715e166bfc78475fe7da1602dd2e\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384287) [ RunTime:0.006387s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:48+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"171395efca4b59c84ba2fba3c4f52c0c\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384288) [ RunTime:0.007381s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:49+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000800s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"7f5f6f0f2f40f5c711923a224d4816a1\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384289) [ RunTime:0.007695s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:49+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"92a5b9b41f068ffe9451404ca12f4940\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384289) [ RunTime:0.006802s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:49+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001009s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"1d35ccadfdd2510432d6e89a574bfed1\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384289) [ RunTime:0.006969s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:50+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"98b60daa0ee75b1dda8ce1623382aafe\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384290) [ RunTime:0.007366s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:50+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000955s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"8844e323c06cebe39c8eefa049677708\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384290) [ RunTime:0.010238s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:50+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000774s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"e018aaf2830afde0d49c3df65f06f052\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384290) [ RunTime:0.013138s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:55+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000760s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"ddd5191653876aea35d4b8cbf1bd6a95\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384295) [ RunTime:0.007080s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:56+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"0b8227f235369aa3afbec2453e3dce1f\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384296) [ RunTime:0.006305s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:56+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"ec1655c7b1f39794f3add51e9b557c8f\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384296) [ RunTime:0.006275s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:56+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"4e9bd184eb7f4d90c3af9eeeb5da20eb\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384296) [ RunTime:0.005886s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:57+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000736s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"19406119ccd35f900c32b55d56098559\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384297) [ RunTime:0.010095s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:04:57+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'qwe' LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"b5e1444ef02b2dfd7aa236efbafc36e4\",\"username\":\"qwe\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384297) [ RunTime:0.007315s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:17+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'admin_ssc' LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"c156a53baa192a65b863a91dad57f19f\",\"username\":\"admin_ssc\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384317) [ RunTime:0.006093s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:22+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000863s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'admin_ssc' LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"20ff6fdea3709dbd129b3b083931185b\",\"username\":\"admin_ssc\"}' , '/admin/index/login?url=%2Fadmin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384322) [ RunTime:0.005449s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:39+08:00 ] 110.184.33.2 POST /admin/index/login?url=%2Fadmin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'ssc_admin' LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] UPDATE `ssc_admin`  SET `logintime`=1524384339,`token`='22c97d00-cc93-47a7-9899-bd7ef61258f0',`updatetime`=1524384339  WHERE  `id` = 1 [ RunTime:0.006982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.001083s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"c47d8f4848f6b377bb2a2e163526bb40\",\"username\":\"ssc_admin\",\"keeplogin\":\"1\"}' , '/admin/index/login?url=%2Fadmin' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384339) [ RunTime:0.005465s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:39+08:00 ] 110.184.33.2 GET /admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.010613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000746s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:40+08:00 ] 110.184.33.2 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001364s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000700s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:51+08:00 ] 110.184.33.2 POST /admin/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000460s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example' , '示例管理' , 'fa fa-magic' , 1 , 0 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.013940s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable' , '表格完整示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005428s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/index' , '查看' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005570s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/detail' , '详情' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005029s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/change' , '变更' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.007366s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/del' , '删除' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005414s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005844s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch' , '自定义搜索' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005556s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch/index' , '查看' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.006303s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch/del' , '删除' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.006781s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.011029s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge' , '彩色角标' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.006872s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge/index' , '查看' , 0 , 'fa fa-circle-o' , 96 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.006658s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge/del' , '删除' , 0 , 'fa fa-circle-o' , 96 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.011932s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 96 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.009052s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump' , '控制器间跳转' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005944s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump/index' , '查看' , 0 , 'fa fa-circle-o' , 100 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.004998s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump/del' , '删除' , 0 , 'fa fa-circle-o' , 100 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.010819s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 100 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.017752s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect' , '多级联动' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005419s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect/index' , '查看' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005013s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect/del' , '删除' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.007074s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.009616s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable' , '多表格示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005860s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable/index' , '查看' , 0 , 'fa fa-circle-o' , 108 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.010936s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable/del' , '删除' , 0 , 'fa fa-circle-o' , 108 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005145s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 108 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.015620s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel' , '关联模型示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.011328s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel/index' , '查看' , 0 , 'fa fa-circle-o' , 112 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.008272s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel/del' , '删除' , 0 , 'fa fa-circle-o' , 112 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005657s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 112 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.004716s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate' , '表格模板示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.004573s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/index' , '查看' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.004990s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/detail' , '详情' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.005672s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/del' , '删除' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.007945s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.008474s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap' , '百度地图示例' , 'fa fa-map-pin' , 1 , 85 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.008988s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap/index' , '查看' , 0 , 'fa fa-circle-o' , 121 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.008876s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap/map' , '详情' , 0 , 'fa fa-circle-o' , 121 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.008845s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap/del' , '删除' , 0 , 'fa fa-circle-o' , 121 , 'normal' , 1524384350 , 1524384350) [ RunTime:0.007789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"example\",\"faversion\":\"1.0.0.20180417_beta\"}' , '/admin/addon/install' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384351) [ RunTime:0.012224s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:51+08:00 ] 110.184.33.2 POST /admin/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000515s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command' , '在线命令管理' , 'fa fa-terminal' , 1 , 0 , 'normal' , 1524384351 , 1524384351) [ RunTime:0.009635s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/index' , '查看' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1524384351 , 1524384351) [ RunTime:0.009456s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/add' , '添加' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1524384351 , 1524384351) [ RunTime:0.006590s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/detail' , '详情' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1524384351 , 1524384351) [ RunTime:0.014069s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/execute' , '运行' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1524384351 , 1524384351) [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/del' , '删除' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1524384351 , 1524384351) [ RunTime:0.009624s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1524384351 , 1524384351) [ RunTime:0.007487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"command\",\"faversion\":\"1.0.0.20180417_beta\"}' , '/admin/addon/install' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384351) [ RunTime:0.010354s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:51+08:00 ] 110.184.33.2 POST /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000723s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/admin/index/index' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384351) [ RunTime:0.016635s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:05:51+08:00 ] 110.184.33.2 POST /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/admin/index/index' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384351) [ RunTime:0.008841s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:06:27+08:00 ] 110.184.33.2 GET /admin/category?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000858s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_category` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:06:28+08:00 ] 110.184.33.2 GET /admin/category/index?sort=weigh&order=desc&_=1524384387452
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000823s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_category` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:06:29+08:00 ] 110.184.33.2 GET /admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:06:30+08:00 ] 110.184.33.2 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1524384389681
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ssc_admin` WHERE  `id` IN (2,4,3,5,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `ssc_admin` WHERE  `id` IN (2,4,3,5,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:06:59+08:00 ] 110.184.33.2 POST /admin/auth/admin/del/ids/5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  ( `id` IN (5) AND `id` IN ( SELECT `uid` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) ) ) [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `id` IN (5) [ RunTime:0.000371s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_admin`    WHERE  `id` = 5 [ RunTime:0.008367s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_auth_group_access`    WHERE  `uid` IN (5) [ RunTime:0.007423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('权限管理 管理员管理 删除' , '{\"action\":\"del\",\"ids\":\"5\",\"params\":\"\"}' , '/admin/auth/admin/del/ids/5' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384419) [ RunTime:0.006584s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:06:59+08:00 ] 110.184.33.2 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1524384389682
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ssc_admin` WHERE  `id` IN (2,4,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `ssc_admin` WHERE  `id` IN (2,4,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:01+08:00 ] 110.184.33.2 POST /admin/auth/admin/del/ids/4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  ( `id` IN (4) AND `id` IN ( SELECT `uid` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) ) ) [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `id` IN (4) [ RunTime:0.000373s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_admin`    WHERE  `id` = 4 [ RunTime:0.006878s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_auth_group_access`    WHERE  `uid` IN (4) [ RunTime:0.009725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('权限管理 管理员管理 删除' , '{\"action\":\"del\",\"ids\":\"4\",\"params\":\"\"}' , '/admin/auth/admin/del/ids/4' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384421) [ RunTime:0.007977s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:01+08:00 ] 110.184.33.2 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1524384389683
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000836s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ssc_admin` WHERE  `id` IN (2,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `ssc_admin` WHERE  `id` IN (2,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:03+08:00 ] 110.184.33.2 POST /admin/auth/admin/del/ids/3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000713s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.003523s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  ( `id` IN (3) AND `id` IN ( SELECT `uid` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) ) ) [ RunTime:0.003563s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `id` IN (3) [ RunTime:0.000321s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_admin`    WHERE  `id` = 3 [ RunTime:0.007545s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_auth_group_access`    WHERE  `uid` IN (3) [ RunTime:0.007180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('权限管理 管理员管理 删除' , '{\"action\":\"del\",\"ids\":\"3\",\"params\":\"\"}' , '/admin/auth/admin/del/ids/3' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384423) [ RunTime:0.004854s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:03+08:00 ] 110.184.33.2 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1524384389684
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000719s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ssc_admin` WHERE  `id` IN (2,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `ssc_admin` WHERE  `id` IN (2,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:06+08:00 ] 110.184.33.2 POST /admin/auth/admin/del/ids/2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  ( `id` IN (2) AND `id` IN ( SELECT `uid` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) ) ) [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `id` IN (2) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_admin`    WHERE  `id` = 2 [ RunTime:0.015475s ]
+[ sql ] [ SQL ] DELETE FROM `ssc_auth_group_access`    WHERE  `uid` IN (2) [ RunTime:0.016484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.001295s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('权限管理 管理员管理 删除' , '{\"action\":\"del\",\"ids\":\"2\",\"params\":\"\"}' , '/admin/auth/admin/del/ids/2' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384426) [ RunTime:0.008125s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:06+08:00 ] 110.184.33.2 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1524384389685
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `ssc_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ssc_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `ssc_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:07+08:00 ] 110.184.33.2 GET /admin/auth/admin/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ssc_admin` [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:17+08:00 ] 110.184.33.2 GET /admin/auth/group?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'auth/group' LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:18+08:00 ] 110.184.33.2 GET /admin/auth/group/index?sort=id&order=desc&_=1524384437539
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,5,4) [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:22+08:00 ] 110.184.33.2 GET /admin/auth/group/edit/ids/2?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000701s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:07:22+08:00 ] 110.184.33.2 POST /admin/auth/group/roletree
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"id\":\"2\",\"pid\":\"1\"}' , '/admin/auth/group/roletree' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384442) [ RunTime:0.009392s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:08:17+08:00 ] 110.184.33.2 GET /admin/command?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'command' LIMIT 1 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:08:18+08:00 ] 110.184.33.2 GET /admin/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1524384497648
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_command` [ RunTime:0.004630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ssc_command` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_command` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:08:20+08:00 ] 110.184.33.2 GET /admin/command/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000737s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW TABLES [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:08:21+08:00 ] 110.184.33.2 POST /admin/command/get_field_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'ssc' AND table_name = 'ssc_admin' ORDER BY ORDINAL_POSITION [ RunTime:0.001124s ]
+[ sql ] [ SQL ] 'ssc_admin'ssc'HOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"table\":\"ssc_admin\"}' , '/admin/command/get_field_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384501) [ RunTime:0.008063s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:08:31+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000751s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"1\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384511) [ RunTime:0.007999s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:08:34+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000825s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"2\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384514) [ RunTime:0.006339s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:08:35+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384515) [ RunTime:0.007034s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:09:37+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384577) [ RunTime:0.007470s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:09:43+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"A\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"A\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384583) [ RunTime:0.008207s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:09:45+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"A\"],\"pageNumber\":\"2\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"A\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384585) [ RunTime:0.006038s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:09:46+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"A\"],\"pageNumber\":\"1\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"A\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384586) [ RunTime:0.008262s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:09:51+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"A\"],\"pageNumber\":\"2\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"A\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384591) [ RunTime:0.008015s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:09:54+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000760s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"A\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"A\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384594) [ RunTime:0.011063s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:09:57+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384597) [ RunTime:0.006983s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:10:01+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384601) [ RunTime:0.009102s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:10:02+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384602) [ RunTime:0.006948s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:10:06+08:00 ] 110.184.33.2 POST /admin/command/get_controller_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"q_word\":[\"\"],\"pageNumber\":\"3\",\"pageSize\":\"10\",\"andOr\":\"AND\",\"orderBy\":[[\"name\",\"ASC\"]],\"searchTable\":\"tbl\",\"showField\":\"name\",\"keyField\":\"id\",\"searchField\":[\"name\"],\"name\":\"\"}' , '/admin/command/get_controller_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384606) [ RunTime:0.007720s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:10:15+08:00 ] 110.184.33.2 GET /admin/command/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000707s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW TABLES [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-04-22T16:10:15+08:00 ] 110.184.33.2 POST /admin/command/get_field_list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'ssc' AND table_name = 'ssc_admin' ORDER BY ORDINAL_POSITION [ RunTime:0.001016s ]
+[ sql ] [ SQL ] 'ssc_admin'ssc'HOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"table\":\"ssc_admin\"}' , '/admin/command/get_field_list' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '110.184.33.2' , 1524384615) [ RunTime:0.006984s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:11:52+08:00 ] 0.0.0.0 GET /ssc/public/admin
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'ssc'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2018-04-22T20:12:00+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'ssc'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2018-04-22T20:12:09+08:00 ] 0.0.0.0 GET /ssc/public/admin
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'ssc'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2018-04-22T20:12:42+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin
+[ info ] localhost/ssc/public/index.php/admin [运行时间：0.612492s][吞吐率：1.63req/s] [内存消耗：3,287.66kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003902s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000680s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001121s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117144s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.075279s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.076806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.080925s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.084635s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:12:43+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399162
+[ info ] localhost/ssc/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399162 [运行时间：0.071390s][吞吐率：14.01req/s] [内存消耗：2,199.09kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004422s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524399162',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000586s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000789s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-22T20:12:44+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/dashboard?addtabs=1
+[ info ] localhost/ssc/public/index.php/admin/dashboard?addtabs=1 [运行时间：0.717540s][吞吐率：1.39req/s] [内存消耗：3,181.63kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004546s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000757s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000847s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133241s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.087955s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.090343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.103102s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.092856s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.090758s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:12:44+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1524399163
+[ info ] localhost/ssc/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1524399163 [运行时间：0.058638s][吞吐率：17.05req/s] [内存消耗：2,198.61kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003425s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1524399163',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000629s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000736s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-22T20:12:48+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/index/logout
+[ info ] localhost/ssc/public/index.php/admin/index/logout [运行时间：0.529244s][吞吐率：1.89req/s] [内存消耗：2,927.97kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004522s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000719s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000689s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122754s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.085219s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.080392s ]
+[ sql ] [ SQL ] UPDATE `ssc_admin`  SET `token`='',`updatetime`=1524399168  WHERE  `id` = 1 [ RunTime:0.091642s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:12:49+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/index/login
+[ info ] localhost/ssc/public/index.php/admin/index/login [运行时间：0.079307s][吞吐率：12.61req/s] [内存消耗：2,318.01kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000066s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005535s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000607s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000732s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-22T20:12:49+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399169
+[ info ] localhost/ssc/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399169 [运行时间：0.063121s][吞吐率：15.84req/s] [内存消耗：2,198.16kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004243s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/index/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524399169',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001952s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000824s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-22T20:13:15+08:00 ] 0.0.0.0 POST /ssc/public/index.php/admin/index/login
+[ info ] localhost/ssc/public/index.php/admin/index/login [运行时间：0.680484s][吞吐率：1.47req/s] [内存消耗：2,826.89kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002722s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/index/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '83',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'e38481a42c07be6edca6e3e5cc808aff',
+  'username' => 'ssc_admin',
+  'password' => 'superssc123.',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001357s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.161006s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.166053s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin` [ RunTime:0.116077s ]
+[ sql ] [ SQL ] SELECT * FROM `ssc_admin` WHERE  `username` = 'ssc_admin' LIMIT 1 [ RunTime:0.079962s ]
+[ sql ] [ SQL ] UPDATE `ssc_admin`  SET `logintime`=1524399194,`token`='49239af8-16fc-4eba-b504-903db57fa2d8',`updatetime`=1524399194  WHERE  `id` = 1 [ RunTime:0.085381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_admin_log` [ RunTime:0.078517s ]
+[ sql ] [ SQL ] INSERT INTO `ssc_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"e38481a42c07be6edca6e3e5cc808aff\",\"username\":\"ssc_admin\"}' , '/ssc/public/index.php/admin/index/login' , 1 , 'ssc_admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' , '0.0.0.0' , 1524399194) [ RunTime:0.081131s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:13:15+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/index/index
+[ info ] localhost/ssc/public/index.php/admin/index/index [运行时间：0.636592s][吞吐率：1.57req/s] [内存消耗：3,142.88kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003069s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000441s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000612s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132999s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.089802s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.090336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.088789s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.089207s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:13:15+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399195
+[ info ] localhost/ssc/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399195 [运行时间：0.041557s][吞吐率：24.06req/s] [内存消耗：2,199.60kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002633s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524399195',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000374s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000609s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-22T20:13:16+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/dashboard?addtabs=1
+[ info ] localhost/ssc/public/index.php/admin/dashboard?addtabs=1 [运行时间：0.648810s][吞吐率：1.54req/s] [内存消耗：2,958.57kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004310s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002401s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000907s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129296s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.084624s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.084712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.086586s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.087130s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.087635s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:13:17+08:00 ] 0.0.0.0 GET /ssc/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1524399196
+[ info ] localhost/ssc/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1524399196 [运行时间：0.040696s][吞吐率：24.57req/s] [内存消耗：2,198.61kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002683s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc/public/index.php/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1524399196',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000398s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\null\Desktop\www\ssc\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000512s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-22T20:14:24+08:00 ] 0.0.0.0 GET /ssc-admin/public/index.php/admin/dashboard?ref=addtabs
+[ info ] localhost/ssc-admin/public/index.php/admin/dashboard?ref=addtabs [运行时间：0.572526s][吞吐率：1.75req/s] [内存消耗：2,623.73kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013665s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005524s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000681s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125268s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.079495s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.083728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.084188s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.081193s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:14:25+08:00 ] 0.0.0.0 GET /ssc-admin/public/index.php/admin/index/index
+[ info ] localhost/ssc-admin/public/index.php/admin/index/index [运行时间：0.587250s][吞吐率：1.70req/s] [内存消耗：3,291.42kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003520s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000612s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\null\Desktop\www\ssc-admin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000645s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131991s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.088372s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.090448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.082960s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.081275s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:14:25+08:00 ] 0.0.0.0 GET /ssc-admin/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399264
+[ info ] localhost/ssc-admin/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1524399264 [运行时间：0.058942s][吞吐率：16.97req/s] [内存消耗：2,203.13kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003765s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc-admin/public/index.php/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1524399264',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000544s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\null\Desktop\www\ssc-admin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000616s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-22T20:14:26+08:00 ] 0.0.0.0 GET /ssc-admin/public/index.php/admin/dashboard?addtabs=1
+[ info ] localhost/ssc-admin/public/index.php/admin/dashboard?addtabs=1 [运行时间：0.681272s][吞吐率：1.47req/s] [内存消耗：3,185.42kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005393s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc-admin/public/index.php/admin/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001058s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ C:\Users\null\Desktop\www\ssc-admin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001319s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119728s ] mysql:host=114.55.65.227;dbname=ssc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_group_access` [ RunTime:0.083769s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ssc_auth_group_access` `aga` LEFT JOIN `ssc_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.083803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ssc_auth_rule` [ RunTime:0.082089s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ssc_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.084448s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ssc_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.080102s ]
+---------------------------------------------------------------
+[ 2018-04-22T20:14:26+08:00 ] 0.0.0.0 GET /ssc-admin/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1524399265
+[ info ] localhost/ssc-admin/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1524399265 [运行时间：0.050466s][吞吐率：19.82req/s] [内存消耗：2,202.16kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003153s ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=38g8u9pq8nbhqaosa9i4cec1c1; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1524385253; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1524399110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ssc-admin/public/index.php/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1524399265',
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000551s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\null\Desktop\www\ssc-admin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\null\Desktop\www\ssc-admin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000475s ]
+[ info ] [ LOG ] INIT File
