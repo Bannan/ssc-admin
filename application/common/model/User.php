@@ -20,6 +20,11 @@ class User Extends Model
         'url',
     ];
 
+    public function user_select($uid)
+    {
+        return $this->where(["id"=>$uid])->select();
+    }
+
     /**
      * 获取个人URL
      * @param   string  $value

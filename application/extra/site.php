@@ -2,7 +2,7 @@
 
 return array (
   'name' => 'FastAdmin',
-  'beian' => '',
+  'beian' => 'asdasd',
   'cdnurl' => '',
   'version' => '1.0.1',
   'timezone' => 'Asia/Shanghai',

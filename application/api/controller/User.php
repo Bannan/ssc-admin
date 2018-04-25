@@ -14,7 +14,8 @@ use think\Validate;
 class User extends Api
 {
 
-    protected $noNeedLogin = ['login', 'mobilelogin', 'register', 'resetpwd', 'changeemail', 'changemobile', 'third'];
+    //protected $noNeedLogin = ['authorization','login', 'mobilelogin', 'register', 'resetpwd', 'changeemail', 'changemobile', 'third'];
+    protected $noNeedLogin = '*';
     protected $noNeedRight = '*';
 
     public function _initialize()
@@ -22,12 +23,23 @@ class User extends Api
         parent::_initialize();
     }
 
-    /**
-     * 会员中心
+    /*
+     *  用户信息
      */
-    public function index()
+
+    public function userinfo()
     {
-        $this->success('', ['welcome' => $this->auth->nickname]);
+        $user = \app\common\model\User::where("id","=",$this->request->request("uid"))->field("id,role,tianka,yundian")->find();
+        if($user)
+        {
+            if($user["role"] == 0)
+            {
+                unset($user["tianka"],$user["yundian"]);
+            }
+            $this->success(" ",$user);
+        }else{
+            $this->error("不存在");
+        }
     }
 
     /**
@@ -146,7 +158,95 @@ class User extends Api
         $this->auth->logout();
         $this->success(__('Logout successful'));
     }
+    public function ll()
+    {
+        $this->auth->register('asd', []);
+        $this->success(__('Logout successful'));
+    }
 
+    /*
+     * 使用code获取openid
+     * post.code
+     */
+    public function authorization()
+    {
+//        $data = $this->request->request();
+//        $iv = $this->define_str_replace($data["iv"]);  //把空格转成+
+//        $encryptedData = urldecode($data["encryptedData"]);   //解码
+//        $code = $this->define_str_replace($data["code"]); //把空格转成+
+//        $msg = $this->getUserInfo($code,$encryptedData,$iv); //获取微信用户信息（openid）
+//        echo json_encode($msg);exit();
+
+        $appid = 'wx58aa49a1e6bf550a';
+        $appsecret = '787973346d2f4cfb276ef36d87a8b421';
+        $data = $this->request->request();
+        //获取open_id
+        $get_url="https://api.weixin.qq.com/sns/jscode2session?appid=".$appid."&secret=".$appsecret."&js_code=".$data['code']."&grant_type=authorization_code";
+
+        //$get_url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appid&secret=$appsecret&code=".$data['code']."&grant_type=authorization_code";
+        $get_return = file_get_contents($get_url);
+        $get_return = (array)json_decode($get_return);
+        file_put_contents("asd.txt",json_encode($get_return),FILE_APPEND);
+
+        //$get_user_info_url = "https://api.weixin.qq.com/sns/userinfo?access_token=$access_token&openid=$openid&lang=zh_CN";
+        //$userinfo_json = file_get_contents($get_user_info_url);
+        //$userInfo_arr = json_decode($userinfo_json, true);
+        if($get_return["openid"] && $get_return["session_key"] && $data["img"] && $data["nickname"])
+        {
+            $exists = \app\common\model\User::where('openid', $get_return["openid"])->find();
+            if(!$exists)
+            {
+                $user = new \app\common\model\User;
+
+                $user->nickname = $data["nickname"];
+
+                $user->avatar = $data["img"];
+
+                $user->openid = $get_return["openid"];
+                $user->save();
+
+                $result["id"] = $user->id;
+                $result["role"] = 0;
+            }
+            else{
+                if($exists["role"] != 0)
+                {
+                    $result["tianka"] = $exists["tianka"];
+                    $result["yundian"] = $exists["yundian"];
+                }
+                $result["role"] = $exists["role"];
+                $result["id"] = $exists["id"];
+            }
+
+
+
+            $this->success(" ",$result);
+        }
+        $this->error("服务器出错！");
+    }
+    public function getUserInfo($code,$encryptedData,$iv)
+    {
+        $appid = 'wx58aa49a1e6bf550a';
+        $secret = '787973346d2f4cfb276ef36d87a8b421';
+        $grant_type='authorization_code';
+        $url='https://api.weixin.qq.com/sns/jscode2session';
+        $url= sprintf("%s?appid=%s&secret=%s&js_code=%s&grant_type=%",$url,$appid,$secret,$code,$grant_type);
+        $user_data=json_decode(file_get_contents($url));
+        $session_key= $this->define_str_replace($user_data->session_key);
+        $data="";
+       /// vendor('Vendor.WxApp.wxBizDataCrypt',realpath('./'),'.php');//引入微信解密文件
+       // $wxBizDataCrypt = new \WXBizDataCrypt($appid,$session_key);
+        //$errCode=$wxBizDataCrypt->decryptData($encryptedData,$iv,$data);
+       // return ['errCode'=>$errCode,'data'=>json_decode($data),'session_key'=>$session_key];
+    }
+    /**
+     * 请求过程中因为编码原因+号变成了空格
+     * 需要用下面的方法转换回来
+     */
+    private function define_str_replace($data)
+    {
+        return str_replace(' ','+',$data);
+    }
     /**
      * 修改会员个人信息
      * 

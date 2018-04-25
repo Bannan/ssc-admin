@@ -1,0 +1,46 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-q" class="control-label col-xs-12 col-sm-2">{:__('Q')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-q" class="form-control" name="row[q]" type="number" value="{$row.q}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-f_id" class="control-label col-xs-12 col-sm-2">{:__('F_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-f_id" data-rule="required" data-source="f/index" class="form-control selectpage" name="row[f_id]" type="text" value="{$row.f_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-c_time" class="control-label col-xs-12 col-sm-2">{:__('C_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-c_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[c_time]" type="text" value="{$row.c_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-s" class="control-label col-xs-12 col-sm-2">{:__('S')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-s" data-rule="required" class="form-control selectpicker" name="row[s]">
+                {foreach name="sList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.s"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-r_key" class="control-label col-xs-12 col-sm-2">{:__('R_key')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-r_key" data-rule="required" class="form-control" name="row[r_key]" type="text" value="{$row.r_key}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

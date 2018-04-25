@@ -136,6 +136,9 @@ return [
     'An unexpected error occurred'                          => '发生了一个意外错误,程序猿正在紧急处理中',
     'This page will be re-directed in %s seconds'           => '页面将在 %s 秒后自动跳转',
     //菜单
+    'room' => '游戏管理',
+    'history' =>'下注记录',
+    'b'=>'房间列表',
     'Dashboard'                                             => '控制台',
     'General'                                               => '常规管理',
     'Category'                                              => '分类管理',

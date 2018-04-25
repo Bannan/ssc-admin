@@ -1,7 +1,7 @@
 <?php
 
 // 公共助手函数
-
+error_reporting(E_ERROR | E_PARSE );
 if (!function_exists('__'))
 {
 

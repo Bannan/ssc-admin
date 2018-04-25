@@ -1,0 +1,58 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-b_id" class="control-label col-xs-12 col-sm-2">{:__('B_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-b_id" data-rule="required" data-source="b/index" class="form-control selectpage" name="row[b_id]" type="text" value="{$row.b_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-u_id" class="control-label col-xs-12 col-sm-2">{:__('U_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-u_id" data-rule="required" data-source="u/index" class="form-control selectpage" name="row[u_id]" type="text" value="{$row.u_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-g" class="control-label col-xs-12 col-sm-2">{:__('G')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-g" class="form-control" name="row[g]" type="number" value="{$row.g}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-s" class="control-label col-xs-12 col-sm-2">{:__('S')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-s" class="form-control" name="row[s]" type="text" value="{$row.s}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-info" class="control-label col-xs-12 col-sm-2">{:__('Info')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-info" class="form-control" name="row[info]" type="text" value="{$row.info}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-num" class="control-label col-xs-12 col-sm-2">{:__('Num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-num" class="form-control" name="row[num]" type="number" value="{$row.num}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-y" class="control-label col-xs-12 col-sm-2">{:__('Y')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-y" class="form-control selectpicker" name="row[y]">
+                {foreach name="yList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.y"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
